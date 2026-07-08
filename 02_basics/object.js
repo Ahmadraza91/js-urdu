@@ -89,18 +89,43 @@ const user=[
     }
 ]
 // acees of these object
-console.log(user[0].email)
+//console.log(user[0].email)
 
-console.log(tinder);
+//console.log(tinder);
 // access keys or values singley
-console.log(Object.keys(tinder));// data types become array..
-console.log(Object.values(tinder));// data types become array..
-console.log(Object.entries(tinder));// give each key value into single array 
+//console.log(Object.keys(tinder));// data types become array..
+//console.log(Object.values(tinder));// data types become array..
+//console.log(Object.entries(tinder));// give each key value into single array 
 
 // check whether the value present in object or not
 // use hasownproperty
 
-console.log(tinder.hasOwnProperty('loogedIn'))
+//console.log(tinder.hasOwnProperty('loogedIn'))
 
 
+//++++++++++++++++++++++++++++++++++++= part3++++++++++++++++++++++++++++++++++++++
 
+const course={
+    courseName:"js in urdu",
+    price:999,
+    courseInstructer:"hitesh"
+}
+// acessing values of object another method.........
+// object destructur.........
+const{courseInstructer:instructor}=course// chnge nmae as object destructur
+console.log(courseInstructer)
+
+//+++++++ Apis++++++++++++++++++++++
+
+// values comes from backend in json format who to write and access as
+// json format...object with no name
+// keys and values both are in string
+/*
+{
+    "name":"ahmad",
+    "crsName":"js",
+    "price":"free"
+
+}
+
+*/
